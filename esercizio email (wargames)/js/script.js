@@ -24,7 +24,6 @@ for( let i = 0; i < allowedEmail.length; i++) {
 // OUTPUT
 
 // 4.comunicare esito tentativo di accesso
-
 if (AccessGranted === true) {
     console.log("accesso concesso, benvenuto. vuoi fare un gioco? scegli tra: scacchi, guerra batteriologica, guerra termonucleare");
 } else {
