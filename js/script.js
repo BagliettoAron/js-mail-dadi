@@ -13,13 +13,13 @@ console.log("pc number", randomPcNumber);
 
 // stabilisco chi ha il numero più alto
 
-// let winnerIs = "0";
+let winnerIs = "Pareggio";
 
 if (randomPcNumber > randomUserNumber) {
-    let winnerIs = "Ha vinto il PC";
+    winnerIs = "Ha vinto il PC";
     
 } else if (randomUserNumber > randomPcNumber) {
-    let winnerIs = "Ha vinto l'utente";
+    winnerIs = "Ha vinto l'utente";
 
 } 
 
